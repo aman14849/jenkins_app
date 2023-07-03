@@ -10,4 +10,9 @@ public class JenkinsController {
 	public String runApp() {
 		return "Jinkins app is working!!!";
 	}
+	
+	@GetMapping("show")
+	public String show() {
+		return "welcome bro!!!";
+	}
 }
